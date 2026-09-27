@@ -1,0 +1,18 @@
+# Feature Retrieval Agent
+
+Retrieves point-in-time ML features and explains freshness and lineage.
+
+## System design
+API -> planner -> domain tools/data -> validation -> explanation/result -> trace.
+
+## Engineering depth
+Focus on correctness, explainability, deterministic interfaces, failure handling, observability and evaluation rather than a thin chatbot wrapper.
+
+## Next implementation steps
+1. Domain model and contracts.
+2. Tool adapters.
+3. Synthetic dataset and regression suite.
+4. API + Docker + CI.
+5. Load, failure and cost testing.
+
+Portfolio systems project; no unverified production metrics are claimed.
